@@ -1,9 +1,9 @@
-import * as THREE from '/three';
-import { GLTFLoader } from '/three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from './node_modules/three';
+import { GLTFLoader } from './node_modules/three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
 
 // for shooting star
-import { MeshLine, MeshLineMaterial, MeshLineRaycast } from '/three.meshline';
+import { MeshLine, MeshLineMaterial, MeshLineRaycast } from './node_modules/three.meshline';
 
 let scene, camera, renderer, model, sky, sunLight, moonLight, ambientLight, skyLight, groundLight, controls;
 let angle = Math.PI / 2; // Start at sunrise
