@@ -3,7 +3,7 @@ import { GLTFLoader } from '/three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls.js';
 
 // for shooting star
-import { MeshLine, MeshLineMaterial, MeshLineRaycast } from 'three.meshline';
+import { MeshLine, MeshLineMaterial, MeshLineRaycast } from '/three.meshline';
 
 let scene, camera, renderer, model, sky, sunLight, moonLight, ambientLight, skyLight, groundLight, controls;
 let angle = Math.PI / 2; // Start at sunrise
